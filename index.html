@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</Html:5></title>
+    <style>
+        *{
+            padding:10px;
+            margin:10px;
+            background-color: rgb(243, 248, 142);
+            color:rgb(69, 1, 1)
+        }
+    </style>
+</head>
+<body>
+    <h2>Enquiry Form</h2>
+    <fieldset>
+        <legend>FORM</legend>
+        Example Name: <input type ="text" Value="Shubham Sharma" disabled=""> <br/>
+        Name: <input type ="text" name ="name" placeholder="Write your full Name" autofocus="" maxlength="40" required=""> <br/>
+        Gender:<input type ="radio" name ="gender">Male
+        <input type ="radio" name ="gender">Female
+        <input type ="radio" name ="gender">Other <br/>
+        Date Of Birth: <input type ="date" name ="dob" placeholder="Date of birth"> Age<input type="number" name="age" min="3" max="32"> <br/>
+        Blood Group:<input type ="text" name ="blood_group" placeholder="Blood Group"><br/>
+        Contact no: <input type ="number" name ="contact" placeholder="Your Mobile Number"><br/>
+        Favourite Color:<input type ="color" name ="color"><br/>
+        Email:<input type ="email" name ="email" placeholder="name@gmail.com"><br/>
+        Hobbies:
+        <input type ="checkbox" name ="hobbies[]" checked="" /> Reading
+        <input type ="checkbox" name ="hobbies[]" /> Basketball
+        <input type ="checkbox" name ="hobbies[]" checked="" /> Football
+        <input type ="checkbox" name ="hobbies[]" checked="" /> Swimming
+        <hr/>
+        Image<input type="file" name="profile_image"/>
+        <br/>
+        <hr/>
+        
+        Father's Name:<input type ="text" name ="father_name" placeholder="Enter your Father's Name"/><br/>
+        Mother's Name:<input type ="text" name ="mother_name" placeholder="Enter your Mother's Name"/><br/>
+        Parent's Contact no: <input type ="number" name ="contact" placeholder="Parent's Mobile NUmber"/><br/>
+        <hr/>
+
+        Current Address<textarea name="current_address" placeholder="Current Address"></textarea><br/>
+        Permanent Address<textarea name="permanent_address" placeholder="Permanent Address"></textarea><br/>
+        
+        <hr/>
+        <input type ="reset" name ="reset"/>
+        <input type ="submit" name ="sebmit"/><br/>
+    </fieldset>
+</body>
+</html>
